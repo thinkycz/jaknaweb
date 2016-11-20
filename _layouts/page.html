@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Stellar by HTML5 UP</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    {% include include_head.html %}
+</head>
+<body>
+
+<div id="wrapper">
+    {% include header_page.html %}
+
+    <div id="main">
+        <section class="main">
+            {{ content }}
+        </section>
+    </div>
+
+    {% include footer.html %}
+</div>
+
+{% include include_foot.html %}
+</body>
+</html>
