@@ -4,29 +4,21 @@ title: HTML
 subtitle: Dávám textovým dokumentům značky
 ---
 
-## Jak to vše začalo
+Základním stavebním kamenem každého webu je HTML. Poznáme ho jednoduše pomocí zobáčků, ve kterých jsou tagy.
 
-Internet je tu s námi již přes 50 let a webové stránky přes 20 let. Během této doby se změnilo spousta věcí, kadou chvíli vznikají nové technologie a jelikož lidé mají tendenci si věci přizpůsobovat, 
-vznikají k těmto technologiím nástroje, jako jsou nové programovací jazyky a frameworky.
+```html
+<!-- Toto je HTML komentář -->
+<a href="http://jaknaweb.thinky.cz/html" class="odkaz">Jak na Web</a>
+```
 
-Každý webový vývojář by měl tyto technologie do jisté míry znát a umět používat. Úkolem této příručky je vás s těmito nástroji seznámit a to jednoduchou a přehlednou formou. 
+### Komentář
+Komentáře slouží pro programátory k zápisu užitečných informací, většinou pro zpřehlednění zdrojového kódu. Prohližeče ho ignorují.
 
-## Co se naučíte
+### Otevírací tag
+Primárním elementem HTML kódu jsou otevírací tagy. Mnoho z nich má své vlastnosti a chování, například `<a>` znamená anchor, neboli kotva. Existují však i tagy bez vlastního významu. Těmi jsou například `<div>` a `<span>`. Jejich vlastnosti se poté definují pomocí CSS, a chování většinou Javascriptem. Může obsahovat atributy.
 
-Úvodem je nutno říct, že cílem této příručky je seznámit vás s těmito nástroji, pro důkladnější studium bych doporučil _oficiální dokumentaci_, či _odbornou učebnici_ k jednotlivým nástrojům.
-Na začátek začneme naprostými základy, první 3 kapitoly budou věnovány **HTML**, **CSS** a **Javascriptu**. Toto jsou základní stavební prvky každé webové stránky. 
+### Atributy
+Většina tagů může mít atributy, ale nemusí. Ty dávají tagům přidanou informační hodnotu. Pomocí atributů class nebo id lze například v CSS a JS dohledat daný element. Hodně atributů má hodnotu, ale jsou i takové, které hodnotu nemají. Jedním z nich je například `disabled`.
 
-Kaskádové styly CSS samotné není příliš praktické a proto vznikly nástroje, jak si práci ulečit.
-Další kapitola bude proto věnována CSS preprocesorům jako je **Less** nebo **SASS** a CSS frameworkům jako je **Bootstrap** či **Bulma**.
-
-To samé platí také o Javascriptu. Vzniklo mnoho nadstavbových knihoven, o kterých by každý webový vývojář měl vědět.
-Pojmy jako jsou **AJAX**, **jQuery**, **Angular** či **VueJS** si objasníme ve čtvrté kapitole.
-
-V páté kapitole přejdeme z klientských nástrojů na nástroje serverové. Řeč bude o skriptovacím jazyku **PHP**, něco málo o objektovém programování
-základní PHP funkce, datové typy, a možná i něco navíc.
-
-Aby mohly být aplikace interaktivní a ne pouze statickou stránkou, je potřeba umět ukládat uživatelské vstupy. Jinými slovy, je potřeba databáze.
-Vysvětlíme jak databáze funguje, jaké jsou druhy databází, a také základy jazyka **SQL**. Toto bude obsahem kapitoly 6.
-
-Na závěr si řekneme něco o PHP frameworcích, ve kterých můžete uplatnit všechny tyto nástroje, které jsme se naučili. V dnešní době umět nějaký z těchto frameworků je základem
-pro kariéru webového developera. Zmíníme nejpopulárnější framwrorky jako je **Symfony** či **Laravel**.
+### Uzavírací tag
+Většina tagů musí být uzavřena pomocí uzavíracího tagu, aby bylo zřejmé, kde obsah daného tagu končí. Existují ale i tzv. samouzavírací tagy, které nemají obsah. Přiklady jsou `<br />`, `<img />`.
