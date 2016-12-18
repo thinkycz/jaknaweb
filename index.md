@@ -14,20 +14,20 @@ Každý webový vývojář by měl tyto technologie do jisté míry znát a umě
 
 Na začátek začneme naprostými základy, první 3 kapitoly budou věnovány **HTML**, **CSS** a **Javascriptu**. Toto jsou základní stavební prvky každé webové stránky.
 
-### [HTML](/html.html)
+### [HTML](./html.html)
 
-### [CSS](/css.html)
+### [CSS](./css.html)
 
-### [Javascript](/javascript.html)
+### [Javascript](./javascript.html)
 
 
 Poté přejdeme k serverovým technologiím. Bude řeč o **PHP**, **SQL** a **Composeru**.
 
-### [PHP](/php.html)
+### [PHP](./php.html)
 
-### [SQL](/sql.html)
+### [SQL](./sql.html)
 
-### [Composer](/composer.html)
+### [Composer](./composer.html)
 
 ## Co dále?
 
